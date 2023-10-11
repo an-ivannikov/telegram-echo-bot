@@ -1,0 +1,40 @@
+{
+  "name": "telegram-json-echo-bot",
+  "version": "0.1.0",
+  "description": "Telegram JSON Echo Bot",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Aleksandr Ivannikov",
+    "email": "dev@ivannikov.pro",
+    "url": "https://ivannikov.pro"
+  },
+  "homepage": "https://github.com/https://github.com/an-ivannikov/telegram-json-echo-bot#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/https://github.com/an-ivannikov/telegram-json-echo-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/https://github.com/an-ivannikov/telegram-json-echo-bot/issues",
+    "email": "dev@ivannikov.pro"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/telegram-json-echo-bot"
+  },
+  "bin": {
+    "telegram-json-echo-bot": "./bin/telegram-json-echo-bot"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "telegram",
+    "json",
+    "echo",
+    "bot"
+  ]
+}

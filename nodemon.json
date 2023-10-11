@@ -1,0 +1,17 @@
+{
+  "verbose": false,
+  "watch": [
+    "nodemon.json",
+    "package.json",
+    "bin/telegram-json-echo-bot",
+    "src/*"
+  ],
+  "ignore": [
+    ".git/*",
+    ".vscode/*",
+    "node_modules/*",
+    "docs/*",
+    "docker/*",
+    "public/*"
+  ]
+}
